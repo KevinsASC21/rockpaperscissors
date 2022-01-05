@@ -3,7 +3,8 @@
 }
 .choices {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 h1 {
@@ -20,6 +21,12 @@ body {
 
 img {
   filter: invert(100%);
+  length: 500px;
+  width: 250px;
+}
+
+p {
+font-size: 15px;
 }
 
 .userChoice p {
@@ -31,5 +38,7 @@ img {
 }
 
 .printedResult p {
+  font-size: 14px;
   color: red;
 }
+
